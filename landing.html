@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Bruno</title>
+    <meta name="description" content="Project coordination intelligence" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex items-center justify-between header-container">
+        <a href="/" class="flex header-logo">
+          <span class="bruno-mascot" data-mascot data-size="32" aria-hidden="true"></span>
+          <span class="logo logo-wordmark">Bruno</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="flex-1" style="background: var(--color-white)">
+      <!-- Hero -->
+      <section class="container" style="padding-top: var(--space-24); padding-bottom: var(--space-20)">
+        <div style="max-width: 640px; margin: 0 auto; text-align: center">
+          <div style="margin-bottom: var(--space-8)">
+            <span class="bruno-mascot" data-mascot data-size="64" aria-hidden="true"></span>
+          </div>
+          <span class="badge badge-primary" style="margin-bottom: var(--space-4)">Research preview</span>
+          <h1 class="text-display">An AI teammate that never loses the thread</h1>
+          <p class="text-body-lg" style="margin-top: var(--space-4); color: var(--color-gray-500)">
+            Bruno lives in your team&rsquo;s Slack, connects your docs and tools, and turns project
+            conversation into durable state &mdash; tasks, decisions, blockers, and handoffs.
+          </p>
+          <div class="flex items-center justify-center" style="margin-top: var(--space-8); gap: var(--space-3)">
+            <a href="#interest" class="btn btn-primary">Register interest</a>
+            <a href="https://www.intelligent-orgs.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Read the research
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Capabilities -->
+      <section style="background: var(--color-surface-muted); padding-top: var(--space-16); padding-bottom: var(--space-16)">
+        <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-3" style="gap: var(--space-5); max-width: 960px; margin: 0 auto">
+            <div class="card card-bordered" style="padding: var(--space-6)">
+              <div aria-hidden="true" style="width: 28px; height: 28px; border-radius: var(--radius-sm); background: var(--brand-bruno-coral-soft); margin-bottom: var(--space-4)"></div>
+              <h2 class="text-heading-3" style="margin-bottom: var(--space-2)">Slack-native</h2>
+              <p class="text-secondary">
+                Bruno works inside your project channels. Mention it, or let it follow the thread &mdash; it
+                turns conversation into tasks, blockers, decisions, and handoffs.
+              </p>
+            </div>
+            <div class="card card-bordered" style="padding: var(--space-6)">
+              <div aria-hidden="true" style="width: 28px; height: 28px; border-radius: var(--radius-sm); background: var(--brand-bruno-sky-soft); margin-bottom: var(--space-4)"></div>
+              <h2 class="text-heading-3" style="margin-bottom: var(--space-2)">A living dashboard</h2>
+              <p class="text-secondary">
+                Every project gets an overview of tasks, timeline, urgent work, artifacts, and a knowledge
+                graph of who is doing what &mdash; kept current without status meetings.
+              </p>
+            </div>
+            <div class="card card-bordered" style="padding: var(--space-6)">
+              <div aria-hidden="true" style="width: 28px; height: 28px; border-radius: var(--radius-sm); background: var(--brand-bruno-sage-soft); margin-bottom: var(--space-4)"></div>
+              <h2 class="text-heading-3" style="margin-bottom: var(--space-2)">Durable memory</h2>
+              <p class="text-secondary">
+                Decisions, claims, and contradictions are tracked over time with attribution, so context
+                survives handoffs, offboarding, and long-running work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Research lineage -->
+      <section class="container" style="padding-top: var(--space-16); padding-bottom: var(--space-16)">
+        <div class="card card-bordered" style="max-width: 720px; margin: 0 auto; padding: var(--space-8); background: var(--brand-bruno-gold-soft)">
+          <p class="text-heading-3" style="margin-bottom: var(--space-3)">The research behind Bruno</p>
+          <p class="text-secondary">
+            <strong>Bruno</strong> is Prototype II of
+            <a href="https://www.intelligent-orgs.com" target="_blank" rel="noopener noreferrer">Prototyping Intelligent Organizations</a>
+            &mdash; our study of organizations coordinated by intelligent machines, which began with Giuseppe,
+            an AI foreman that led a human team to an Ars Electronica submission.
+          </p>
+          <p class="text-secondary" style="margin-top: var(--space-3)">
+            Bruno, an AI product manager for scientists, was presented as an oral at the
+            <a href="https://openreview.net/forum?id=ApsytO0P2P" target="_blank" rel="noopener noreferrer">ICML 2026 AI4Science Workshop</a>, with an
+            evaluation roadmap built around a pilot in a graduate computational biology course.
+          </p>
+        </div>
+      </section>
+
+      <!-- Interest form -->
+      <section id="interest" style="background: var(--color-surface-muted); padding-top: var(--space-16); padding-bottom: var(--space-24)">
+        <div class="container">
+          <div style="max-width: 720px; margin: 0 auto">
+            <div style="text-align: center; margin-bottom: var(--space-8)">
+              <h2 class="text-heading-1">Sign up for early access</h2>
+              <p class="text-body-lg" style="margin-top: var(--space-3); color: var(--color-gray-500)">
+                Tell us about your team and we&rsquo;ll reach out as pilot spots open.
+              </p>
+            </div>
+            <div class="card card-bordered" style="overflow: hidden; padding: 0">
+              <iframe
+                src="https://airtable.com/embed/app54yx8sOlm1gYia/pagetyo4v1gJJFcyX/form"
+                title="Bruno interest form"
+                width="100%"
+                height="700"
+                style="border: 0; display: block; background: var(--color-white)"
+              ></iframe>
+            </div>
+            <p class="text-secondary" style="text-align: center; margin-top: var(--space-4)">
+              Form not loading?
+              <a href="https://airtable.com/app54yx8sOlm1gYia/pagetyo4v1gJJFcyX/form" target="_blank" rel="noopener noreferrer">Open it in a new tab</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="landing.js"></script>
+  </body>
+</html>
